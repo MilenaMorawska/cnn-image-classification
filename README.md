@@ -1,4 +1,4 @@
-# CNN image classification & sentiment analysis
+# CNN image classification
 
 ## Author
 
