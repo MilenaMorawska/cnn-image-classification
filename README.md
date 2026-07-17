@@ -17,10 +17,10 @@ This project covers two tasks: image classification using a custom convolutional
 ## Features
 
 Task 1:
-- Custom CNN built from scratch for 10-class image classification (no pretrained weights)
+- Custom CNN built from scratch for 10-class image classification 
 - Data augmentation pipeline 
 - Regularisation techniques including SpatialDropout2D, standard Dropout, batch normalisation, and L2 regularisation
-- Training callbacks (EarlyStopping, ModelCheckpoint) for efficient, overfitting-resistant training
+- Training callbacks for efficient, overfitting-resistant training
 - Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
 
 Task 2:
@@ -31,10 +31,7 @@ Task 2:
 - Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
 
 
-Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
-Error handling for missing datasets and invalid inputs
-
 ## Data
 
-The image dataset used for Task 1 is provided by the COP528 module (Loughborough University)
+The image dataset used for Task 1 is provided by the Loughborough University
 and is not included in this repository due to file size and licensing restrictions.
