@@ -10,7 +10,7 @@ GitHub: https://github.com/MilenaMorawska
 
 ## Overview
 
-This project covers the task of image classification using a custom convolutional neural network (CNN) trained from scratch. It provides tools for training and evaluating an image classifier across many categories.
+This project covers the task of image classification using a custom convolutional neural network (CNN) trained from scratch. It provides tools for training and evaluating an image classifier across categories.
 
 ---
 
@@ -25,7 +25,7 @@ This project covers the task of image classification using a custom convolutiona
 
 ## Dataset Setup
 
-This project uses a 10-class subset of an ImageNet-style image classification dataset. The dataset contains labelled images organised into separate class directories using ImageNet WordNet identifiers (e.g., `n02102040`).
+This project used a 10-class subset of an ImageNet-style image classification dataset. The dataset contains labelled images organised into separate class directories using ImageNet WordNet identifiers (e.g., `n02102040`).
 
 The dataset is not included in this repository. To run the notebook:
 - Obtain the dataset separately.
@@ -47,6 +47,4 @@ The dataset is not included in this repository. To run the notebook:
 
 ## Usage
 
-The notebook was developed using Google Colab. 
-If running in Colab, Google Drive mounting is required to access the dataset.
-and is not included in this repository due to file size and licensing restrictions.
+The notebook was developed using Google Colab. If running in Colab, Google Drive mounting is required to access the dataset.
