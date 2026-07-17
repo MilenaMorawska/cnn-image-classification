@@ -21,7 +21,26 @@ This project covers the task of image classification using a custom convolutiona
 - Training callbacks for efficient, overfitting-resistant training
 - Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
 
-## Data
+---
 
-The image dataset used for Task 1 is provided by the Loughborough University
+## Dataset Setup
+
+The dataset is not included in this repository. 
+
+This notebook was developed using Google Colab and loads the dataset from Google Drive. To run the notebook, the dataset must be downloaded separately and the file paths updated accordingly.
+
+Before running the notebook:
+- Ensure the dataset is available locally or in Google Drive.
+- Update the `TRAIN_DIR` and `VAL_DIR` variables in the notebook to point to the correct dataset locations.
+
+---
+
+## Requirements 
+
+- Python 3.12
+- TensorFlow
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 and is not included in this repository due to file size and licensing restrictions.
